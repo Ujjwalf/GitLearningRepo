@@ -6,7 +6,7 @@
             "desc": "Apple iPhone 12th generation",
             "price": 999,
             "color": "#33505a",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd0JhwLvm_uLDLc-la7hK9WyVpe9naJFcebKfhcICiq2KtvXDePNAU_9QO06LPcQ0K0fLByc7m&usqp=CAc"
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021661000"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "desc": "Google Pixel phone 5th generation",
             "price": 699,
             "color": "#00ac51",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd0JhwLvm_uLDLc-la7hK9WyVpe9naJFcebKfhcICiq2KtvXDePNAU_9QO06LPcQ0K0fLByc7m&usqp=CAc"
+            "image": "https://www.telstra.com.au/content/dam/tcom/lego/2020/plans-devices/mobiles/google-pixel-5/shared-google-pixel-5-black-05-900x1200.png"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "desc": "Apple Macbook air with apple silicon",
             "price": 1099,
             "color": "#e0bfae",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-max-gold-witb-202209_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=1660789320487"
+            "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP825/macbookair.png"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "desc": "Sony Playstation 5th generation",
             "price": 500,
             "color": "#544ee4",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-max-gold-witb-202209_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=1660789320487"
+            "image": "data:image/jpeg;base64,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"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "desc": "Apple Aipods Pro 1st generation",
             "price": 200,
             "color": "#e3e4e9",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-max-gold-witb-202209_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=1660789320487"
+            "image": "https://crdms.images.consumerreports.org/c_lfill,w_598/prod/products/cr/models/400116-wireless-portable-headphones-apple-airpods-pro-10009323.png"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "desc": "Apple iPad Pro 2020 edition",
             "price": 799,
             "color": "#f73984",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-max-gold-witb-202209_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=1660789320487"
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-wifi-silver-202003_FMT_WHH?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1583551131102"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "desc": "Samsung Galaxy S21 Ultra 2021 edition",
             "price": 1299,
             "color": "#1c1c1c",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-max-gold-witb-202209_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=1660789320487"
+            "image": "https://lh3.googleusercontent.com/qRQPjHrhRVIs-xnfNSyiPXOH2vH97ylMacgbTKebqJtRfNH3LlYo8pN-5igsLDWUH62tGl5zNpTsl5xd8SprzGmXoCEmWFOi2-2cQVGS-r3PaRXHt62DmJHq-jrYX0UQvWZ9BA=s800-c"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "desc": "Samsung Galaxy S21 2021 edition",
             "price": 899,
             "color": "#7c95eb",
-            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-max-gold-witb-202209_FMT_WHH?wid=560&hei=744&fmt=jpeg&qlt=90&.v=1660789320487"
+            "image": "https://images.samsung.com/is/image/samsung/p6pim/za/galaxy-s21/gallery/za-clear-cover-galaxy-s21-5g-ef-qg991ttegww-363168624?$720_576_PNG$"
         }
     ]
 }
