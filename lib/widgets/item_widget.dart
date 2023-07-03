@@ -3,9 +3,7 @@ import 'package:basic/models/catalog.dart';
 
 class ItemWidget extends StatelessWidget {
   final Item item;
-  const ItemWidget({required Key key, required this.item})
-      : assert(item != null),
-        super(key: key);
+  const ItemWidget({required this.item});
 
   @override
   Widget build(BuildContext context) {
