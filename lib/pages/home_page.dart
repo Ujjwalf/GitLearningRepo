@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CatalogHeader(),
-                if (CatalogModel.items.isNotEmpty)
+                if (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
                   CatalogList().expand()
                 else
                   Center(
@@ -145,11 +145,10 @@ class CatalogImage extends StatelessWidget {
   }
 }
 
-
 //The below code is writtern by me but is not working as expected
 
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-// //import 'dart:html';
+// // ignore_for_file: public_member_api_docs, sort_constructors_first
+// // import 'dart:html';
 // import 'dart:convert';
 // import 'dart:async';
 // //import 'dart:io';
@@ -196,12 +195,11 @@ class CatalogImage extends StatelessWidget {
 //           crossAxisAlignment: CrossAxisAlignment.start,
 //           children: [
 //             CatalogHeader(),
-//             if (CatalogModel.items.isNotEmpty && CatalogModel.items != null)
-//               CatalogList().expand()
-//             else
-//               const Center(
-//                 child: CircularProgressIndicator(),
-//               )
+//             // if (CatalogModel.items.isNotEmpty)
+//             // else
+//             //   const Center(
+//             //     child: CircularProgressIndicator(),
+//             //   )
 //           ],
 //         ),
 //       ),
@@ -212,13 +210,18 @@ class CatalogImage extends StatelessWidget {
 // class CatalogList extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
-//     return ListView.builder(
-//       shrinkWrap: true,
-//       itemCount: CatalogModel.items.length,
-//       itemBuilder: (context, index) {
-//         final catalog = CatalogModel.items[index];
-//         return CatalogItem(catalog: catalog);
-//       },
+//     return Expanded(
+//       child: SingleChildScrollView(
+//         child: ListView.builder(
+//           shrinkWrap: true,
+//           physics: const NeverScrollableScrollPhysics(),
+//           itemCount: CatalogModel.items.length,
+//           itemBuilder: (context, index) {
+//             final catalog = CatalogModel.items[index];
+//             return CatalogItem(catalog: catalog);
+//           },
+//         ),
+//       ),
 //     );
 //   }
 // }
@@ -230,7 +233,6 @@ class CatalogImage extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
 //     return Container(
-//       color: Colors.white,
 //       height: 150,
 //       decoration: BoxDecoration(
 //         shape: BoxShape.rectangle,
@@ -294,28 +296,26 @@ class CatalogImage extends StatelessWidget {
 // class CatalogHeader extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
-//     return Container(
-//       padding: const EdgeInsets.all(32),
-//       child: Column(
-//         crossAxisAlignment: CrossAxisAlignment.start,
-//         children: [
-//           Text(
-//             "Catalog App",
-//             style: TextStyle(
-//               fontSize: 40,
-//               fontWeight: FontWeight.bold,
-//               color: MyTheme.darkBluishColor,
-//             ),
+//     return Column(
+//       crossAxisAlignment: CrossAxisAlignment.start,
+//       children: [
+//         Text(
+//           "Catalog App",
+//           style: TextStyle(
+//             fontSize: 40,
+//             fontWeight: FontWeight.bold,
+//             color: MyTheme.darkBluishColor,
 //           ),
-//           const Text(
-//             "Trending products",
-//             style: TextStyle(
-//               fontSize: 20,
-//             ),
-//           )
-//         ],
-//       ),
+//         ),
+//         const Text(
+//           "Trending products",
+//           style: TextStyle(
+//             fontSize: 20,
+//           ),
+//         )
+//       ],
 //     );
+//     CatalogList();
 //   }
 // }
 
